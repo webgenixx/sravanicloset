@@ -13,9 +13,9 @@ import s3 from "@/assets/collection-festive.jpg";
 export const Route = createFileRoute("/gallery")({
   head: () => ({
     meta: [
-      { title: "Gallery — Sravani Closet" },
-      { name: "description", content: "Editorial fashion photography from the Sravani Closet atelier — traditional and modern Indian wear, captured beautifully." },
-      { property: "og:title", content: "Gallery — Sravani Closet" },
+      { title: "Gallery — Sweet's Closet" },
+      { name: "description", content: "Editorial fashion photography from the Sweet's Closet atelier — traditional and modern Indian wear, captured beautifully." },
+      { property: "og:title", content: "Gallery — Sweet's Closet" },
       { property: "og:description", content: "Editorial fashion photography from our atelier." },
     ],
   }),
@@ -67,7 +67,7 @@ function Gallery() {
             "She didn't dress to be seen.
             <br />She dressed to remember who she was."
           </p>
-          <p className="eyebrow mt-6">— Sravani Closet</p>
+          <p className="eyebrow mt-6">— Sweet's Closet</p>
         </div>
       </section>
     </Layout>

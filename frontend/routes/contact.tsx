@@ -5,9 +5,9 @@ import { Instagram, MessageCircle, Mail, MapPin, Clock } from "lucide-react";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Visit Us — Sravani Closet" },
-      { name: "description", content: "Visit the Sravani Closet boutique in Hyderabad, or chat with our stylists on WhatsApp and Instagram." },
-      { property: "og:title", content: "Visit Us — Sravani Closet" },
+      { title: "Visit Us — Sweet's Closet" },
+      { name: "description", content: "Visit Sweet's Closet boutique in Menteyvari Thota, Bhimavaram, or chat with our stylists on WhatsApp and Instagram." },
+      { property: "og:title", content: "Visit Us — Sweet's Closet" },
       { property: "og:description", content: "Boutique address, WhatsApp & Instagram." },
     ],
   }),
@@ -37,13 +37,13 @@ function Contact() {
           <div className="space-y-10">
             <div>
               <p className="eyebrow">Atelier</p>
-              <h2 className="display-serif text-3xl md:text-4xl mt-3">Sravani Closet · Hyderabad</h2>
+              <h2 className="display-serif text-3xl md:text-4xl mt-3">Sweet's Closet · Bhimavaram</h2>
             </div>
 
             {[
-              { icon: MapPin, t: "The Boutique", lines: ["Plot 12, Jubilee Hills Road No. 36", "Hyderabad, Telangana 500033"] },
+              { icon: MapPin, t: "The Boutique", lines: ["Menteyvari Thota", "Bhimavaram, Andhra Pradesh"] },
               { icon: Clock, t: "Boutique Hours", lines: ["Tuesday – Sunday · 11 AM – 8 PM", "Monday by appointment"] },
-              { icon: Mail, t: "Write To Us", lines: ["hello@sravanicloset.com"] },
+              { icon: Mail, t: "Write To Us", lines: ["hello@sweetscloset.com"] },
               { icon: MessageCircle, t: "Call / WhatsApp", lines: ["+91 99999 99999"] },
             ].map(({ icon: Icon, t, lines }) => (
               <div key={t} className="flex gap-5 items-start pb-8 border-b">
@@ -104,12 +104,25 @@ function Contact() {
             </form>
 
             <div className="aspect-[4/3] w-full overflow-hidden">
-              <iframe
-                title="Boutique map"
-                src="https://www.openstreetmap.org/export/embed.html?bbox=78.4%2C17.4%2C78.45%2C17.45&layer=mapnik"
-                className="w-full h-full grayscale"
-                loading="lazy"
-              />
+              <a
+                href="https://share.google/fd0RHnh0ve7GcqmBE"
+                target="_blank"
+                rel="noreferrer"
+                className="block w-full h-full relative group"
+              >
+                <iframe
+                  title="Sweet's Closet location map"
+                  src="https://maps.google.com/maps?q=Menteyvari+Thota,+Bhimavaram,+Andhra+Pradesh&output=embed"
+                  className="w-full h-full grayscale group-hover:grayscale-0 transition-all"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 flex items-end justify-center pb-4 opacity-0 group-hover:opacity-100 transition-opacity">
+                  <span className="text-xs uppercase tracking-[0.3em] px-4 py-2"
+                        style={{ background: "var(--color-maroon)", color: "var(--color-ivory)" }}>
+                    Open in Google Maps →
+                  </span>
+                </div>
+              </a>
             </div>
           </div>
         </div>

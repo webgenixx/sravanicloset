@@ -35,7 +35,7 @@ export function Navbar() {
             className="display-serif text-2xl tracking-wider"
             style={{ color: scrolled ? "var(--color-maroon)" : "var(--color-ivory)" }}
           >
-            Sravani
+            Sweet's
           </span>
           <span
             className="text-[0.65rem] uppercase tracking-[0.4em]"

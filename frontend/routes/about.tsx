@@ -6,9 +6,9 @@ import portrait from "@/assets/gallery-3.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "Our Story — Sravani Closet" },
-      { name: "description", content: "The story behind Sravani Closet — a boutique built on women's empowerment, craft and modern Indian elegance." },
-      { property: "og:title", content: "Our Story — Sravani Closet" },
+      { title: "Our Story — Sweet's Closet" },
+      { name: "description", content: "The story behind Sweet's Closet — a boutique built on women's empowerment, craft and modern Indian elegance." },
+      { property: "og:title", content: "Our Story — Sweet's Closet" },
       { property: "og:description", content: "A boutique built on craft, empowerment and modern Indian elegance." },
     ],
   }),
@@ -37,7 +37,7 @@ function About() {
               <p className="eyebrow">The Beginning</p>
               <h2 className="display-serif text-3xl md:text-4xl mt-3 leading-tight">Born from a love letter to Indian craft.</h2>
               <p className="mt-5 text-lg font-light leading-relaxed text-muted-foreground">
-                Sravani Closet began in a small studio with three sarees, a
+                Sweet's Closet began in a small studio with three sarees, a
                 grandmother's sewing machine, and a single belief — that
                 Indian wear must move with the modern woman, not behind her.
               </p>

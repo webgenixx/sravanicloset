@@ -11,9 +11,9 @@ import festive from "@/assets/collection-festive.jpg";
 export const Route = createFileRoute("/collections")({
   head: () => ({
     meta: [
-      { title: "Collections — Sravani Closet" },
+      { title: "Collections — Sweet's Closet" },
       { name: "description", content: "Wedding, festive, daily ethnic, designer sarees and boutique specials — curated for the modern Indian woman." },
-      { property: "og:title", content: "Collections — Sravani Closet" },
+      { property: "og:title", content: "Collections — Sweet's Closet" },
       { property: "og:description", content: "Wedding, festive, designer sarees and boutique specials." },
     ],
   }),
@@ -39,7 +39,7 @@ function Collections() {
             Six edits. <em style={{ color: "var(--color-maroon)" }}>Endless moments.</em>
           </h1>
           <p className="mt-6 max-w-2xl mx-auto text-lg font-light text-muted-foreground">
-            Every collection at Sravani Closet is hand-curated — from the loom
+            Every collection at Sweet's Closet is hand-curated — from the loom
             to the last finishing stitch.
           </p>
         </div>
