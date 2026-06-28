@@ -9,14 +9,6 @@ import party from "@/assets/collection-party.jpg";
 import festive from "@/assets/collection-festive.jpg";
 
 export const Route = createFileRoute("/collections")({
-  head: () => ({
-    meta: [
-      { title: "Collections — Sweet's Closet" },
-      { name: "description", content: "Wedding, festive, daily ethnic, designer sarees and boutique specials — curated for the modern Indian woman." },
-      { property: "og:title", content: "Collections — Sweet's Closet" },
-      { property: "og:description", content: "Wedding, festive, designer sarees and boutique specials." },
-    ],
-  }),
   component: Collections,
 });
 

@@ -4,14 +4,6 @@ import experience from "@/assets/experience.jpg";
 import portrait from "@/assets/gallery-3.jpg";
 
 export const Route = createFileRoute("/about")({
-  head: () => ({
-    meta: [
-      { title: "Our Story — Sweet's Closet" },
-      { name: "description", content: "The story behind Sweet's Closet — a boutique built on women's empowerment, craft and modern Indian elegance." },
-      { property: "og:title", content: "Our Story — Sweet's Closet" },
-      { property: "og:description", content: "A boutique built on craft, empowerment and modern Indian elegance." },
-    ],
-  }),
   component: About,
 });
 

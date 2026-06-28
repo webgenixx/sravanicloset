@@ -3,14 +3,6 @@ import { Layout } from "@/components/Layout";
 import { Instagram, MessageCircle, Mail, MapPin, Clock } from "lucide-react";
 
 export const Route = createFileRoute("/contact")({
-  head: () => ({
-    meta: [
-      { title: "Visit Us — Sweet's Closet" },
-      { name: "description", content: "Visit Sweet's Closet boutique in Menteyvari Thota, Bhimavaram, or chat with our stylists on WhatsApp and Instagram." },
-      { property: "og:title", content: "Visit Us — Sweet's Closet" },
-      { property: "og:description", content: "Boutique address, WhatsApp & Instagram." },
-    ],
-  }),
   component: Contact,
 });
 

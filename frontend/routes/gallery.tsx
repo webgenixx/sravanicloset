@@ -11,14 +11,6 @@ import s2 from "@/assets/collection-lehenga.jpg";
 import s3 from "@/assets/collection-festive.jpg";
 
 export const Route = createFileRoute("/gallery")({
-  head: () => ({
-    meta: [
-      { title: "Gallery — Sweet's Closet" },
-      { name: "description", content: "Editorial fashion photography from the Sweet's Closet atelier — traditional and modern Indian wear, captured beautifully." },
-      { property: "og:title", content: "Gallery — Sweet's Closet" },
-      { property: "og:description", content: "Editorial fashion photography from our atelier." },
-    ],
-  }),
   component: Gallery,
 });
 

@@ -15,14 +15,6 @@ import g5 from "@/assets/gallery-5.jpg";
 import g4 from "@/assets/gallery-4.jpg";
 
 export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "Sweet's Closet — Curated Indian Wear For Every Beautiful Woman" },
-      { name: "description", content: "Premium women's Indian wear boutique offering curated sarees, lehengas, designer kurtis and festive wear. Wear confidence with elegance." },
-      { property: "og:title", content: "Sweet's Closet — Curated Indian Wear" },
-      { property: "og:description", content: "Curated Indian Wear For Every Beautiful Woman." },
-    ],
-  }),
   component: Home,
 });
 
