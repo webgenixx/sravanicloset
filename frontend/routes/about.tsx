@@ -29,7 +29,7 @@ function About() {
               <p className="eyebrow">The Beginning</p>
               <h2 className="display-serif text-3xl md:text-4xl mt-3 leading-tight">Born from a love letter to Indian craft.</h2>
               <p className="mt-5 text-lg font-light leading-relaxed text-muted-foreground">
-                Sweet's Closet began in a small studio with three sarees, a
+              Sweety's Closet began in a small studio with three sarees, a
                 grandmother's sewing machine, and a single belief — that
                 Indian wear must move with the modern woman, not behind her.
               </p>

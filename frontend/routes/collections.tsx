@@ -31,7 +31,7 @@ function Collections() {
             Six edits. <em style={{ color: "var(--color-maroon)" }}>Endless moments.</em>
           </h1>
           <p className="mt-6 max-w-2xl mx-auto text-lg font-light text-muted-foreground">
-            Every collection at Sweet's Closet is hand-curated — from the loom
+            Every collection at Sweety's Closet is hand-curated — from the loom
             to the last finishing stitch.
           </p>
         </div>

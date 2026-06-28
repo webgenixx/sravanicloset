@@ -59,7 +59,7 @@ function Gallery() {
             "She didn't dress to be seen.
             <br />She dressed to remember who she was."
           </p>
-          <p className="eyebrow mt-6">— Sweet's Closet</p>
+          <p className="eyebrow mt-6">— Sweety's Closet</p>
         </div>
       </section>
     </Layout>

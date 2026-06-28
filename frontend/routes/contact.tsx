@@ -29,13 +29,13 @@ function Contact() {
           <div className="space-y-10">
             <div>
               <p className="eyebrow">Atelier</p>
-              <h2 className="display-serif text-3xl md:text-4xl mt-3">Sweet's Closet · Bhimavaram</h2>
+              <h2 className="display-serif text-3xl md:text-4xl mt-3">Sweety's Closet · Bhimavaram</h2>
             </div>
 
             {[
               { icon: MapPin, t: "The Boutique", lines: ["Menteyvari Thota", "Bhimavaram, Andhra Pradesh"] },
               { icon: Clock, t: "Boutique Hours", lines: ["Tuesday – Sunday · 11 AM – 8 PM", "Monday by appointment"] },
-              { icon: Mail, t: "Write To Us", lines: ["hello@sweetscloset.com"] },
+              { icon: Mail, t: "Write To Us", lines: ["hello@sweetyscloset.com"] },
               { icon: MessageCircle, t: "Call / WhatsApp", lines: ["+91 99999 99999"] },
             ].map(({ icon: Icon, t, lines }) => (
               <div key={t} className="flex gap-5 items-start pb-8 border-b">
@@ -103,7 +103,7 @@ function Contact() {
                 className="block w-full h-full relative group"
               >
                 <iframe
-                  title="Sweet's Closet location map"
+                  title="Sweety's Closet location map"
                   src="https://maps.google.com/maps?q=Menteyvari+Thota,+Bhimavaram,+Andhra+Pradesh&output=embed"
                   className="w-full h-full grayscale group-hover:grayscale-0 transition-all"
                   loading="lazy"

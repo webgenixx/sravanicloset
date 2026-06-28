@@ -28,7 +28,7 @@ const collections = [
 ];
 
 const testimonials = [
-  { name: "Aishwarya R.", text: "The lehenga Sweet's styled for my engagement made me feel like the most beautiful version of myself. The craftsmanship is unreal.", city: "Bhimavaram" },
+  { name: "Aishwarya R.", text: "The lehenga Sweety's styled for my engagement made me feel like the most beautiful version of myself. The craftsmanship is unreal.", city: "Bhimavaram" },
   { name: "Meghana K.", text: "Every visit feels personal. They listen, they understand drape, body and soul. My festive wardrobe is now entirely from here.", city: "Bangalore" },
   { name: "Divya S.", text: "From silk to chiffon, every piece carries quiet luxury. I felt beautiful, empowered and entirely myself.", city: "Chennai" },
 ];
@@ -39,7 +39,7 @@ function Home() {
       {/* HERO */}
       <section className="relative min-h-screen flex items-center overflow-hidden">
         <div className="absolute inset-0">
-          <img src={hero} alt="Sweet's Closet hero" className="w-full h-full object-cover object-top" />
+          <img src={hero} alt="Sweety's Closet hero" className="w-full h-full object-cover object-top" />
           <div className="absolute inset-0" style={{
             background: "linear-gradient(90deg, color-mix(in oklab, var(--color-maroon) 75%, transparent) 0%, color-mix(in oklab, var(--color-maroon) 40%, transparent) 50%, transparent 100%)"
           }} />
@@ -49,7 +49,7 @@ function Home() {
           <div className="max-w-2xl text-ivory" style={{ color: "var(--color-ivory)" }}>
             <p className="eyebrow animate-fade-up" style={{ color: "var(--color-gold)" }}>
               <span className="gold-rule mr-3" />
-              Sweet's Closet · Est. Bhimavaram
+              Sweety's Closet · Est. Bhimavaram
             </p>
             <h1 className="display-serif text-5xl md:text-7xl lg:text-8xl leading-[0.95] mt-6 animate-fade-up delay-100">
               Wear Confidence
@@ -124,13 +124,13 @@ function Home() {
             </div>
           </div>
           <div>
-            <p className="eyebrow"><span className="gold-rule mr-3" />The Sweet's Experience</p>
+            <p className="eyebrow"><span className="gold-rule mr-3" />The Sweety's Experience</p>
             <h2 className="display-serif text-4xl md:text-5xl mt-4 leading-tight">
               An atelier where every drape is <em style={{ color: "var(--color-maroon)" }}>personal</em>.
             </h2>
             <p className="mt-6 text-base leading-relaxed font-light text-muted-foreground max-w-lg">
               From the first thread to the final fitting — we walk with you.
-              Sweet's Closet is built on intimacy, intention, and a deep
+              Sweety's Closet is built on intimacy, intention, and a deep
               reverence for Indian textile heritage.
             </p>
 
@@ -180,7 +180,7 @@ function Home() {
 
           <div className="text-center mt-12">
             <a href="https://instagram.com" target="_blank" rel="noreferrer" className="btn-primary">
-              @sweetscloset
+              @sweetyscloset
             </a>
           </div>
         </div>

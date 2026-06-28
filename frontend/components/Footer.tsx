@@ -8,7 +8,7 @@ export function Footer() {
         <div className="grid md:grid-cols-4 gap-12">
           <div className="md:col-span-2">
             <div className="flex items-baseline gap-2">
-              <span className="display-serif text-3xl tracking-wider">Sweet's</span>
+              <span className="display-serif text-3xl tracking-wider">Sweety's</span>
               <span className="text-[0.7rem] uppercase tracking-[0.4em]" style={{ color: "var(--color-gold)" }}>
                 Closet
               </span>
@@ -38,7 +38,7 @@ export function Footer() {
             <p className="eyebrow mb-5" style={{ color: "var(--color-gold)" }}>Reach Us</p>
             <ul className="space-y-3 text-sm font-light">
               <li className="flex items-center gap-3 opacity-80"><MapPin size={14} /> Menteyvari Thota, Bhimavaram</li>
-              <li className="flex items-center gap-3 opacity-80"><Mail size={14} /> hello@sweetscloset.com</li>
+              <li className="flex items-center gap-3 opacity-80"><Mail size={14} /> hello@sweetyscloset.com</li>
               <li className="flex items-center gap-3 opacity-80"><MessageCircle size={14} /> +91 99999 99999</li>
             </ul>
             <div className="flex gap-3 mt-6">
@@ -59,7 +59,7 @@ export function Footer() {
         <div className="mt-16 pt-8 border-t flex flex-col md:flex-row items-center justify-between gap-4"
              style={{ borderColor: "color-mix(in oklab, var(--color-ivory) 15%, transparent)" }}>
           <p className="text-xs opacity-60 tracking-wider">
-            © {new Date().getFullYear()} Sweet's Closet. Crafted with love.
+            © {new Date().getFullYear()} Sweety's Closet. Crafted with love.
           </p>
           <p className="text-xs opacity-60 tracking-[0.3em] uppercase">
             Boutique · Bhimavaram
